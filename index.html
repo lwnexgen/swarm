@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Swarm Demo</title>
+    <link rel="stylesheet" type="text/css" href="swarm.css" media="screen"></link>
+    <script type="text/javascript" src="jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="agent.js"></script>
+    <script type="text/javascript" src="bucket.js"></script>
+    <script type="text/javascript" src="flock.js"></script>
+    <script type="text/javascript" src="obstacle.js"></script>
+    <script type="text/javascript" src="swarm.js"></script>
+  </head>
+  <body>
+    <div id="swarm_div">
+      <canvas id="layer1"></canvas>
+    </div>
+    <label for="maxAgents">Number of agents:</label>
+    <input type="text" id="maxAgents" size="4"/>
+    <input type="button" value="render" onclick="initialize()"/>
+    <label for="UUID">UUID:</label>
+    <input type="text" id="UUID" size="40"/>
+  </body>
+</html>

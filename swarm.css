@@ -1,0 +1,8 @@
+div#swarm_div {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+canvas {
+	border: 1px solid black;
+}
